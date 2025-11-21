@@ -39,7 +39,7 @@ Performed using **Power Query** and **Power BI**, including:
 
 - Removed duplicates, handled null values, corrected data types, and standardized date/time formats  
 - Converted text-based columns into proper **Date/Time**, **Whole Number**, or **Decimal** types  
-- Created custom columns:
+- Created custom columns, such as:
   - **Order–Pickup Time Comparison**  
   - **Age_Status** (under-age agent detection)  
   - **Store Location Status** (valid vs invalid GPS coordinates)  
