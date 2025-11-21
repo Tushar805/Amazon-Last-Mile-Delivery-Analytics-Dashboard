@@ -43,7 +43,7 @@ Performed using **Power Query** and **Power BI**, including:
   - **Order–Pickup Time Comparison**  
   - **Age_Status** (under-age agent detection)  
   - **Store Location Status** (valid vs invalid GPS coordinates)  
-  - **Drop Location Status**  
+  - **Drop Location Status**  (valid vs invalid GPS coordinates)
   - **Delivery Status** (On-Time vs Late)  
   - **Delivery Time Bins** (0–20, 20–40, … 260–280 minutes)  
 - Built key DAX measures, such as:
@@ -81,3 +81,51 @@ AVERAGE('amazon_delivery'[Delivery_Time in minutes])
 
 On Time Deliveries % =
 DIVIDE([On Time Deliveries], [Total Orders])
+
+---
+
+## 📂 Repository Structure
+
+- `Data` → Raw dataset (CSV file from Kaggle)
+
+-  Amazon Dashboard.pbix
+
+-  Amazon Dashboard.pdf
+
+- README.md
+
+--- 
+
+## 🔄 Workflow Summary
+
+- Import CSV into Power BI
+
+- Clean & transform data in Power Query
+
+- Create custom and conditional columns
+
+- Create DAX measures for KPIs
+
+- Design multi-page dashboards with consistent themes
+
+- Generate insights and recommendations
+
+- Export dashboard to PDF and publish to GitHub
+
+---
+
+## 🔍 Insights 
+
+- Late deliveries exceed on-time deliveries even with a **120-minute threshold**
+
+- Metropolitan areas contribute **62%+** of all orders
+
+- High-traffic zones lead to **150% more delays** than low-traffic areas
+
+- Cloudy weather increases late deliveries significantly
+
+- **91** records missing weather/traffic data → data quality issue
+
+- **38** deliveries handled by under-age agents (age 15)
+
+- **3,505** store locations contain invalid GPS coordinates (0,0)
