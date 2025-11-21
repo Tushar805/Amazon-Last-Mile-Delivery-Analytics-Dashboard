@@ -129,3 +129,6 @@ DIVIDE([On Time Deliveries], [Total Orders])
 - **38** deliveries handled by under-age agents (age 15)
 
 - **3,505** store locations contain invalid GPS coordinates (0,0)
+
+<img width="561" height="459" alt="image" src="https://github.com/user-attachments/assets/fabe0664-5188-4db9-b231-36c74905df9b" />
+
