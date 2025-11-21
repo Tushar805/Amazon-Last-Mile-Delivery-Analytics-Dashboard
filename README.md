@@ -81,7 +81,7 @@ AVERAGE('amazon_delivery'[Delivery_Time in minutes])
 
 On Time Deliveries % =
 DIVIDE([On Time Deliveries], [Total Orders])
-
+```
 ---
 
 ## 📂 Repository Structure
